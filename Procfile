@@ -1,1 +1,1 @@
-web: gunicorn Quima.wsgi
+web: gunicorn Qeimah.wsgi
