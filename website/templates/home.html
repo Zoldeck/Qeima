@@ -4,13 +4,16 @@
 
 
 
-<html lang="en">
+<html lang="ar">
+
   <head>
     <title>Qeimah | قيمة</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="{% static 'website/fonts/icomoon/style.css' %}">
 
     <link rel="stylesheet" href="{% static 'website/css/bootstrap.min.css' %}">
@@ -35,7 +38,7 @@
 
   <div id="overlayer"></div>
   <div class="loader">
-    <div class="spinner-border text-primary" role="status">
+    <div class="spinner-border text-dark" role="status">
       <span class="sr-only">Loading...</span>
     </div>
   </div>
@@ -65,26 +68,14 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
-                <li><a href="{% url 'home' %}" class="nav-link">Home</a></li>
-                <li><a href="#features-section" class="nav-link">Features</a></li>
-                <li class="has-children">
-                  <a href="#about-section" class="nav-link">About Us</a>
-                  <ul class="dropdown arrow-top">
-                    <li><a href="#" target="_blank" class="nav-link"><span class="text-primary">More Free Templates</span></a></li>
-                    <li><a href="#our-team-section" class="nav-link">Our Team</a></li>
-                    <li class="has-children">
-                      <a href="#">More Links</a>
-                      <ul class="dropdown">
-                        <li><a href="#">Menu One</a></li>
-                        <li><a href="#">Menu Two</a></li>
-                        <li><a href="#">Menu Three</a></li>
-                      </ul>
-                    </li>
-                  </ul>
+                <li><a href="#home-section" class="nav-link">الرئيسية</a></li>
+                <li><a href="#features-section" class="nav-link">الخدمات</a></li>
+
+                <li> <a href="#about-section" class="nav-link">عن قيمة</a></li>
+
                 </li>
-                <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
-                <li><a href="#blog-section" class="nav-link">Blog</a></li>
-                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                <li><a href="#blog-section" class="nav-link">أخبار</a></li>
+                <li><a href="#contact-section" class="nav-link">تواصل معنا</a></li>
               </ul>
             </nav>
           </div>
@@ -107,12 +98,14 @@
             <img src="{% static 'website/images/undraw_investing_7u74.png' %}" alt="Image" class="img-fluid img-absolute">
 
             <div class="row mb-4" data-aos="fade-up" data-aos-delay="200">
-              <div class="col-lg-6 mr-auto">
-                <h1>What is Qeimah?</h1>
-                <p class="mb-5">
-Nonprofit initiative that motivating students to increase their work experience during the study period by internships.</p>
+              <div class="col-lg-6 mr-auto"><html dir="rtl" lang="ar">
+                <h1 style="text-align:center">ما هي قيمة؟</h1>
+                <p class="mb-5" style="text-align:center">
+قيمة هي مبـادرة مجتمعيـة تسـاعد الطـلاب الجامعيـن علـى رفـع  قيمتهـم السـوقية و ذلـك مـن خـلال تحفيزهـم و دعمهـم لخـوض تجارب مختلفة في سوق العمل
+
+.</p>
                 <div>
-                  <a href="#" class="btn btn-primary mr-2 mb-2">Get Started</a>
+                  <a href="#" class="btn btn-primary mr-5 mb-2">سجل معنا </a>
                 </div>
               </div>
               
@@ -129,8 +122,8 @@ Nonprofit initiative that motivating students to increase their work experience 
       <div class="container">
         <div class="row mb-5 justify-content-center text-center"  data-aos="fade-up">
           <div class="col-7 text-center  mb-5">
-            <h2 class="section-title">Imagine Features</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos quaerat sapiente nam, id vero.</p>
+            <h2 class="section-title">ماذا نقدم ؟</h2>
+            <p class="lead">تقدم مبادرة قيمة خدماتها للطلاب في المرحلة الجامعية وذلك من خلال</p>
           </div>
         </div>
         <div class="row align-items-stretch">
@@ -142,10 +135,10 @@ Nonprofit initiative that motivating students to increase their work experience 
               </div>
               <div>
                 <h3>
-Internships</h3>
-                <p>Find the right
-internship for you.</p>
-                <p><a href="#">Learn More</a></p>
+توفيـر فـرص تدريبيـة  للطـلاب
+
+و الطالبـات</h3>
+                <p>توفير الفرصة المناسبة <br>لكل متدرب</p>
               </div>
             </div>
 
@@ -154,24 +147,24 @@ internship for you.</p>
 
             <div class="unit-4 d-block">
               <div class="unit-4-icon mb-3">
-                <span class="icon-wrap"><span class="text-primary icon-store_mall_directory"></span></span>
+                <span class="icon-wrap"><span class="text-primary icon-trending_up"></span></span>
               </div>
               <div>
-                <h3>Workshops & Courses</h3>
-                <p>training where participants carry out a number of training activities.</p>
-                <p><a href="#">Learn More</a></p>
+                <h3>إقامـة ورشـة عمـل قيمة</h3>
+                <p>إقامة ورشة أعمال ودورات لإعداد المتدرب واكسابه المهارات الازمة. </p>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up"  data-aos-delay="200">
             <div class="unit-4 d-block">
               <div class="unit-4-icon mb-3">
-                <span class="icon-wrap"><span class="text-primary icon-shopping_basket"></span></span>
+                <span class="icon-wrap"><span class="text-primary  icon-retweet"></span></span>
               </div>
               <div>
-                <h3>Easy Purchase</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
+                <h3>مواقــع التواصـل الإجتماعـي</h3>
+                <p>
+إســتخدامها كوسـيلة للتوعيـة عـن أهميـة زيـادة القيمـة السـوقية للطـلاب والطالبـات.
+</p>
               </div>
             </div>
           </div>
@@ -183,9 +176,10 @@ internship for you.</p>
                 <span class="icon-wrap"><span class="text-primary icon-settings_backup_restore"></span></span>
               </div>
               <div>
-                <h3>Free Updates</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
+                <h3>فعاليـات متنوعـة</h3>
+                <p>إقامـة فعاليـات متنوعـة للتواصـل و المتابعـة
+
+مـع الطـلاب و الطالبـات المسـتفيدين مـن  مبـادرة قيمـة.</p>
               </div>
             </div>
           </div>
@@ -193,12 +187,12 @@ internship for you.</p>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="unit-4 d-block">
               <div class="unit-4-icon mb-3">
-                <span class="icon-wrap"><span class="text-primary icon-sentiment_satisfied"></span></span>
+                <span class="icon-wrap"><span class="text-primary icon-desktop"></span></span>
               </div>
               <div>
-                <h3>100% Satistified</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
+                <h3>تدريب عن بعد</h3>
+                <p>توفير فرص تدريب عن بعد<br>
+                  للطلاب والطالبات.</p>
               </div>
             </div>
 
@@ -208,12 +202,12 @@ internship for you.</p>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="unit-4 d-block">
               <div class="unit-4-icon mb-3">
-                <span class="icon-wrap"><span class="text-primary icon-power"></span></span>
+                <span class="icon-wrap"><span class="text-primary icon-wb_sunny"></span></span>
               </div>
               <div>
-                <h3>Easy Plugin</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
+                <h3>برامج صيفية</h3>
+                <p>برامج صيفية معدة لتهيئة الطلاب والطالبات لإحتياجات سوق العمل.</p>
+                
               </div>
             </div>
           </div>
@@ -226,96 +220,94 @@ internship for you.</p>
       <div class="container">
         <div class="row mb-5 site-section">
           <div class="col-lg-7" data-aos="fade-right">
-            <img src="{% static 'website/images/undraw_gift_card_6ekc.svg' %}" alt="Image" class="img-fluid">
+            <img src="{% static 'website/images/undraw_gift_card_6ekc.png' %}" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
-            <h2 class="text-black">Communicate and gather feedback</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem neque nisi architecto autem molestias corrupti officia veniam.</p>
-            
+            <h2 class="text-black" style="text-align: right">قصص نجاح</h2>
+
             <div class="author-box" data-aos="fade-left">
               <div class="d-flex mb-4">
                 <div class="mr-3">
-                  <img src="{% static 'website/images/person_4.jpg' %}" alt="Image" class="img-fluid rounded-circle">
                 </div>
-                <div class="mr-auto text-black">
-                  <strong class="font-weight-bold mb-0">Grey Simpson</strong> <br>
-                  Co-Founder, XYZ Inc.
+                <div class="mr-auto text-black"><html dir="rtl" lang="ar">
+                  <strong class="font-weight-bold mb-0">وجدان باناصر</strong> <br>
+                   متدربة في كمكم
                 </div>
               </div>
-              <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores inventore aperiam iure?&rdquo;</blockquote>
+              <blockquote style="text-align:center">&ldquo;خضت تجربة التدريب الصيفي مع شركة كُمكُم، وجودي في بيئة عمل محفزة و متعاونة ساعدني اني أكتسب بعض المهارات مثل العمل ضمن الفريق و العل تحت تحت الضغط. أحب أشكر قيمة على المبادرة القيّمة اللي كانت حلقة الوصل بيني و بين كُمكُم&rdquo;</blockquote>
             </div>
           </div>
         </div>
 
         <div class="mt-5 row mb-5 site-section ">
           <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-left">
-            <img src="{% static 'website/images/undraw_metrics_gtu7.svg' %}" alt="Image" class="img-fluid">
+            <img src="{% static 'website/images/undraw_metrics_gtu7.png' %}" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-5 pr-lg-5 mr-auto mt-5 order-2 order-lg-1">
-            <h2 class="text-black">Communicate and gather feedback</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem neque nisi architecto autem molestias corrupti officia veniam</p>
-            
+            <h2 class="text-black"style="text-align: right">قصص نجاح</h2>
+
             
 
             <div class="author-box" data-aos="fade-right">
               <div class="d-flex mb-4">
                 <div class="mr-3">
-                  <img src="{% static 'website/images/person_1.jpg' %}" alt="Image" class="img-fluid rounded-circle">
                 </div>
                 <div class="mr-auto text-black">
-                  <strong class="font-weight-bold mb-0">Kimberly Gush</strong> <br>
-                  Co-Founder, XYZ Inc.
+                  <strong class="font-weight-bold mb-0">شهد مليباري</strong> <br>
+                  متربة في تجسيد
                 </div>
               </div>
-              <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores inventore aperiam iure?&rdquo;</blockquote>
+              <html dir="rtl" lang="ar">
+
+              <blockquote style="text-align:center">&ldquo;تعرفت على تجسيد مع مجتمع قيمة الذي يوفر فرص تدريبية للطلاب و الطالبات ، و اتعلمت معاهم أهم أساسيات التصميم الجرافيكي الناجح . أشكر مجتمع قيمة على اتاحة لي هذة الفرصة و انصح كل طالب و طالبة بالتدريب الصيفي لأن عالم التطبيق غير عالم التعليم
+&rdquo;</blockquote>
             </div>
           </div>
         </div>
 
         <div class="row mb-5 site-section">
           <div class="col-lg-7" data-aos="fade-right">
-            <img src="{% static 'website/images/undraw_gift_card_6ekc.svg' %}" alt="Image" class="img-fluid">
+            <img src="{% static 'website/images/undraw_gift_card_6ekc.png' %}" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
-            <h2 class="text-black">Communicate and gather feedback</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem neque nisi architecto autem molestias corrupti officia veniam.</p>
-            
+            <h2 class="text-black" style="text-align: right">قصص نجاح</h2>
+
             <div class="author-box" data-aos="fade-left">
               <div class="d-flex mb-4">
                 <div class="mr-3">
-                  <img src="{% static 'website/images/person_4.jpg' %}" alt="Image" class="img-fluid rounded-circle">
                 </div>
                 <div class="mr-auto text-black">
-                  <strong class="font-weight-bold mb-0">Grey Simpson</strong> <br>
-                  Co-Founder, XYZ Inc.
+                  <strong class="font-weight-bold mb-0"> أرين الشيخ </strong> <br>
+                  عضوة في قيمة, متدربة في تجسيد
                 </div>
               </div>
-              <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores inventore aperiam iure?&rdquo;</blockquote>
+              <html dir="rtl" lang="ar">
+              <blockquote style="text-align:center">&ldquo;انا كاتبة محتوى و عضوة في فريق قيمة. تجربتي في تجسيد كانت مميزة جداً، تعلمت أساسيات مهمة في كتابة المحتوى و فهم أبرز المواضيع اللي تجذب الناس و اكتشفت جوانب عديدة في طريقة التعامل مع العملاء. بالتأكيد أنصح كل الطلاب و الطالبات انهم يخوضوا تجربة التدريب الصيفي سواء في تخصصهم أو مجال آخر&rdquo;</blockquote>
             </div>
           </div>
         </div>
 
         <div class="mt-5 row mb-5 site-section ">
           <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-left">
-            <img src="{% static 'website/images/undraw_metrics_gtu7.svg' %}" alt="Image" class="img-fluid">
+            <img src="{% static 'website/images/undraw_metrics_gtu7.png' %}" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-5 pr-lg-5 mr-auto mt-5 order-2 order-lg-1">
-            <h2 class="text-black">Communicate and gather feedback</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem neque nisi architecto autem molestias corrupti officia veniam</p>
-            
+            <h2 class="text-black" style="text-align: right">قصص نجاح</h2>
+
             
 
             <div class="author-box" data-aos="fade-right">
               <div class="d-flex mb-4">
                 <div class="mr-3">
-                  <img src="{% static 'website/images/person_1.jpg' %}" alt="Image" class="img-fluid rounded-circle">
                 </div>
                 <div class="mr-auto text-black">
-                  <strong class="font-weight-bold mb-0">Kimberly Gush</strong> <br>
-                  Co-Founder, XYZ Inc.
+                  <strong class="font-weight-bold mb-0">شذى اليزيدي</strong> <br>
+                  متدربة في تجسيد
                 </div>
               </div>
-              <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores inventore aperiam iure?&rdquo;</blockquote>
+              <html dir="rtl" lang="ar">
+              <blockquote style="text-align:center">&ldquo;تدربت في شركة كُمكُم و تدريبي ساعدني في اكتساب و تطوير بعض المهارات منها  مهارة التصميم و كتابة المحتوى و المونتاج. سعيدة جداً بتجربتي و أشكر قيمة على الفرص اللي بتقدمها للطلاب
+&rdquo;</blockquote>
             </div>
           </div>
         </div>
@@ -332,17 +324,13 @@ internship for you.</p>
         </div>
         <div class="row mb-5">
           <div class="col-lg-6" data-aos="fade-right">
-            <img src="{% static 'website/images/undraw_bookmarks_r6up.svg' %}" alt="Image" class="img-fluid">
+            <img src="{% static 'website/images/undraw_bookmarks_r6up.png' %}" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-5 ml-auto pl-lg-5">
-            <h2 class="text-black mb-4 h3 font-weight-bold">Our Mission</h2>
-            <p class="mb-4">Eos cumque optio dolores excepturi rerum temporibus magni recusandae eveniet, totam omnis consectetur maxime quibusdam expedita dolorem dolor nobis dicta labore quaerat esse magnam unde, aperiam delectus! At maiores, itaque.</p>
-            <ul class="ul-check mb-5 list-unstyled success">
-              <li>Laborum enim quasi at modi</li>
-              <li>Ad at tempore</li>
-              <li>Labore quaerat esse</li>
-            </ul>
-            <p><a href="#" class="btn btn-primary">Learn More</a></p>
+            <h2 class="text-black mb-4 h3 font-weight-bold" style="text-align: center">رؤيتنا</h2>
+            <p class="mb-4" style="text-align: center"> هي التوعية على أهمية تطوير الذات و المساهمة لاكتساب الطلاب المهارات و الخبرات العملية اللازمة لإبرازهم كمتميزين في مجتمع الأعمال و الريادة من خلال خوض مختلف التجارب.</p>
+           <div style="position:relative; left: -70px;"
+            <p><a href="#" class="btn btn-primary">المزيد عنا</a></p>
           </div>
         </div>
 
@@ -354,8 +342,8 @@ internship for you.</p>
       <div class="container">
         <div class="row mb-5 justify-content-center text-center"  data-aos="fade-up">
           <div class="col-7 text-center  mb-5">
-            <h2 class="section-title">Our Team</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos quaerat sapiente nam, id vero.</p>
+            <h2 class="section-title">فريق عمل قيمة
+</h2>
           </div>
         </div>
        
@@ -373,9 +361,9 @@ internship for you.</p>
                   <a href="#"><span class="icon-instagram"></span></a>
                 </div>
               </div>
-              <h2 class="text-black h1">Cloe Marena</h2>
-              <span class="sub-title d-block mb-3">President</span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus perspiciatis ipsa modi accusantium repellat.</p>
+              <h2 class="text-black h1" style="text-align: right">سيرين باحداد</h2>
+              <span class="sub-title d-block mb-3" style="text-align: right"> أخصائية العلاقات العامة</span>
+              <p style="text-align: right">يهدف قسم العلاقات العامة على توطيد العلاقة بين الفرص التدريبية المتاحة و الطلاب الراغبين بزيادة خبراتهم العملية .</p>
             </div>
           </div>
 
@@ -391,9 +379,9 @@ internship for you.</p>
                   <a href="#"><span class="icon-instagram"></span></a>
                 </div>
               </div>
-              <h2 class="text-black h1">John Rooster</h2>
-              <span class="sub-title d-block mb-3">Marketing</span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus perspiciatis ipsa modi accusantium repellat.</p>
+              <h2 class="text-black h1" style="text-align: right">صفوان هاشم</h2>
+              <span class="sub-title d-block mb-3" style="text-align: right">أخصائي العلاقات العامة</span>
+              <p style="text-align: right">يُبنى عمل المبادرة على بناء شراكات ناجحة مع الشركات المختلفة في سبيل خلق الفرص التدريبية للطلاب و الطالبات.</p>
               
             </div>
           </div>
@@ -405,14 +393,15 @@ internship for you.</p>
                   <img src="{% static 'website/images/person_3.jpg' %}" alt="Image" class="img-fluid">
                 </figure>
                 <div class="social">
-                  <a href="#"><span class="icon-facebook"></span></a>
-                  <a href="#"><span class="icon-twitter"></span></a>
-                  <a href="#"><span class="icon-instagram"></span></a>
+                  <a href="https://www.linkedin.com/in/abdulrahman-balubaid"><span class="icon-linkedin"></span></a>
+                  <a href="https://twitter.com/Abalubaid5?s=20"><span class="icon-twitter"></span></a>
+                  <a href="https://www.instagram.com/abalubaid5/"><span class="icon-instagram"></span></a>
                 </div>
               </div>
-              <h2 class="text-black h1">Will Turner</h2>
-              <span class="sub-title d-block mb-3">Marketing</span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus perspiciatis ipsa modi accusantium repellat.</p>
+              <h2 class="text-black h1" style="text-align: right">عبدالرحمن بالبيد</h2>
+              <span class="sub-title d-block mb-3" style="text-align: right">المؤسس</span>
+              <p style="margin-left: 75px; max-width: 750px;">
+              <p style="text-align: right">يتركز عمل المؤسس على إدارة المبادرة من خلال التخطيط للبرامج الخدمات المقدمة من المبادرة وإدارتها وإدارة فريق العمل .</p>
             </div>
           </div>
 
@@ -420,7 +409,7 @@ internship for you.</p>
             <div class="person">
               <div class="bio-img">
                 <figure>
-                  <img src="{% static 'website/images/person_4.jpg' %}" alt="Image" class="img-fluid">
+                  <img src="{% static 'website/images/person_4.png' %}" alt="Image" class="img-fluid">
                 </figure>
                 <div class="social">
                   <a href="#"><span class="icon-facebook"></span></a>
@@ -428,9 +417,9 @@ internship for you.</p>
                   <a href="#"><span class="icon-instagram"></span></a>
                 </div>
               </div>
-              <h2 class="text-black h1">Nicolas Stainer</h2>
-              <span class="sub-title d-block mb-3">Financing</span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus perspiciatis ipsa modi accusantium repellat.</p>
+              <h2 class="text-black h1" style="text-align: right">أرين الشيخ</h2>
+              <span class="sub-title d-block mb-3" style="text-align: right">مسؤولة مواقع التواصل الاجتماعي</span>
+              <p style="text-align: right">تكمن أهمية إدارة المحتوى في وسائل التواصل الاجتماعي بالوصول لأكبر عدد ممكن من الطلاب للاستفادة من نشاط المبادرة و رفع الوعي بأهمية المرحلة الجامعية.</p>
             </div>
           </div>
 
@@ -438,7 +427,7 @@ internship for you.</p>
             <div class="person">
               <div class="bio-img">
                 <figure>
-                  <img src="{% static 'website/images/person_5.jpg' %}" alt="Image" class="img-fluid">
+                  <img src="{% static 'website/images/person_5.png' %}" alt="Image" class="img-fluid">
                 </figure>
                 <div class="social">
                   <a href="#"><span class="icon-facebook"></span></a>
@@ -446,9 +435,9 @@ internship for you.</p>
                   <a href="#"><span class="icon-instagram"></span></a>
                 </div>
               </div>
-              <h2 class="text-black h1">George Brook</h2>
-              <span class="sub-title d-block mb-3">Founder</span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus perspiciatis ipsa modi accusantium repellat.</p>
+              <h2 class="text-black h1" style="text-align: right">ليان الدجاني</h2>
+              <span class="sub-title d-block mb-3" style="text-align: right">أخصائية تصميم و إدارة مواقع</span>
+              <p style="text-align: right"> ليان طالبة إخراج أفلام في جامعة عفت و لديها شغف في التصميم الجرافيكي و تصميم المواقع.</p>
             </div>
           </div>
 
@@ -456,7 +445,7 @@ internship for you.</p>
             <div class="person">
               <div class="bio-img">
                 <figure>
-                  <img src="{% static 'website/images/person_6.jpg' %}" alt="Image" class="img-fluid">
+                  <img src="{% static 'website/images/person_6.png' %}" alt="Image" class="img-fluid">
                 </figure>
                 <div class="social">
                   <a href="#"><span class="icon-facebook"></span></a>
@@ -464,9 +453,9 @@ internship for you.</p>
                   <a href="#"><span class="icon-instagram"></span></a>
                 </div>
               </div>
-              <h2 class="text-black h1">Emely Hopson</h2>
-              <span class="sub-title d-block mb-3">Marketing</span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus perspiciatis ipsa modi accusantium repellat.</p>
+              <h2 class="text-black h1" style="text-align: right">رزان البركاتي</h2>
+              <span class="sub-title d-block mb-3" style="text-align: right">أخصائية تصميم التواصل الاجتماعي</span>
+              <p style="text-align: right">وظيفتي هي جعل رسالة قيمة واضحة و جاذبة للكل.</p>
               
             </div>
           </div>
@@ -475,113 +464,37 @@ internship for you.</p>
       </div>
     </div>
 
-
-    <div class="site-section testimonial-wrap bg-light" id="testimonials-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <h2 class="section-title mb-3">Testimonials</h2>
-          </div>
-        </div>
-      </div>
-      <div class="slide-one-item home-slider owl-carousel">
-          <div>
-            <div class="testimonial">
-              <figure class="mb-4 d-block align-items-center justify-content-center">
-                <div><img src="{% static 'website/images/person_3.jpg' %}" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
-              </figure>
-              <blockquote class="mb-3">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              <p class="text-black"><strong>John Smith</strong></p>
-
-              
-            </div>
-          </div>
-          <div>
-            <div class="testimonial">
-              
-              <figure class="mb-4 d-block align-items-center justify-content-center">
-                <div><img src="{% static 'website/images/person_2.jpg' %}" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
-              </figure>
-
-              <blockquote class="mb-3">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              
-              <p class="text-black"><strong>Robert Aguilar</strong></p>
-              
-              
-            </div>
-          </div>
-
-          <div>
-            <div class="testimonial">
-              <figure class="mb-4 d-block align-items-center justify-content-center">
-                <div><img src="{% static 'website/images/person_4.jpg' %}" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
-              </figure>
-              <blockquote class="mb-3">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              <p class="text-black"><strong>Roger Spears</strong></p>
-
-              
-            </div>
-           
-          </div>
-
-          <div>
-            <div class="testimonial">
-              <figure class="mb-4 d-block align-items-center justify-content-center">
-                <div><img src="{% static 'website/images/person_1.jpg' %}" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
-              </figure>
-              <blockquote class="mb-3">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              <p class="text-black"><strong>Kyle McDonald</strong></p>
-
-              
-            </div>
-
-          </div>
-
-        </div>
-    </div>
 
     <div class="site-section" id="blog-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center">
-            <h2 class="section-title mb-3">Blog Posts</h2>
+            <h2 class="section-title mb-3">أخبار قيمة</h2>
           </div>
         </div>
 
         <div class="row">
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
             <div class="h-entry">
-              <img src="{% static 'website/images/img_1.jpg' %}" alt="Image" class="img-fluid">
-              <h2><a href="#">Make Your Business More Profitable</a></h2>
-              <div class="meta mb-4">Ham Brook <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-              <p><a href="#">Continue Reading...</a></p>
+              <blockquote class="twitter-tweet"><p lang="ar" dir="rtl">ايش كانت توقعات صالح شاهيني من المتدربين ! <br>كُمكُم أحد شركاء النجاح اللي منحوا طلاب مجتمع قيمة فرص تدريبية في الصيف وقدموا لهم تجارب كثير كانت كفيلة بإنها تضيف لشخصياتهم وتكسبهم مهارات جديدة 🙏🏻<a hrz saleh_shahini?ref_src=twsrc%5Etfw">@saleh_shahini</a><a href="https://twitter.com/komkom_design?ref_src=twsrc%5Etfw">@komkom_design</a> <a href="https://t.co/Vm8V7xOFXN">pic.twitter.com/Vm8V7xOFXN</a></p>&mdash; Qeimah | قيمة (@Qeimahksa) <a href="https://twitter.com/Qeimahksa/status/1196794346659631105?ref_src=twsrc%5Etfw">November 19, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <h2 style="text-align: right"><a href="https://www.instagram.com/qeimahksa/">ايش كانت توقعات صالح شاهيني من المتدربين!</a></h2>
+              <div class="meta mb-4">تويتر <span class="mx-2">&bullet;</span> Nov 19, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
             </div> 
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
             <div class="h-entry">
-              <img src="{% static 'website/images/img_2.jpg' %}" alt="Image" class="img-fluid">
-              <h2><a href="#">Make Your Business More Profitable</a></h2>
-              <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-              <p><a href="#">Continue Reading...</a></p>
+              <blockquote class="twitter-tweet" ><p lang="ar" dir="rtl">غالية موصلي من تجسيد ديزاين أحد شركاء النجاح لقيمة نقلت تجربتها مع المتدربين وكيف أضافوا لها قيمة 😍<a href="https://twitter.com/GhaliaKMosly?ref_src=twsrc%5Etfw">@GhaliaKMosly</a> <a href="https://t.co/B1GQmXb0P9">pic.twitter.com/B1GQmXb0P9</a></p>&mdash; Qeimah | قيمة (@Qeimahksa) <a href="https://twitter.com/Qeimahksa/status/1191340786908090372?ref_src=twsrc%5Etfw">November 4, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <h2 style="text-align: right"><a href="#">تجربة غالية الموصلي مع تجسيد </a></h2>
+              <div class="meta mb-4">تويتر <span class="mx-2">&bullet;</span> Nov 4, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
+
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
             <div class="h-entry">
-              <img src="{% static 'website/images/img_3.jpg' %}" alt="Image" class="img-fluid">
-              <h2><a href="#">Make Your Business More Profitable</a></h2>
-              <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-              <p><a href="#">Continue Reading...</a></p>
+              <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CAORX-eFSiq/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CAORX-eFSiq/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CAORX-eFSiq/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Qeimah | قيمة (@qeimahksa)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2020-05-15T21:06:40+00:00">May 15, 2020 at 2:06pm PDT</time></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+              <h2 style="text-align: right"><a href="#">برنامج التدريب عن بعد</a></h2>
+              <div class="meta mb-4">انستقرام <span class="mx-2">&bullet;</span> May 16, 2020<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
+
             </div> 
           </div>
           
@@ -595,7 +508,7 @@ internship for you.</p>
           <div class="col-12 text-center">
 
 
-            <h2 class="section-title mb-3 text-white">Contact Us</h2>
+            <h2 class="section-title mb-3 text-white">تواصل معنا</h2>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -607,45 +520,45 @@ S
                   {% csrf_token %}
                 <div  class="p-5 bg-white">
               {% csrf_token %}
-              <h2 class="h4 text-black mb-5">Contact Us</h2>
+              <h2 class="h4 text-black mb-5" style="text-align: center">تواصل معنا</h2>
 
               <div class="row form-group">
-                <div class="col-md-6 mb-3 mb-md-0">
-                  <label class="text-black" for="fname">First Name</label>
+                <div class="col-md-6 mb-3 mb-md-0" style="text-align: right">
+                  <label class="text-black" for="fname" style="text-align:right">الاسم الاول</label>
                   <input type="text" id="fname"  name="fname" class="form-control rounded-0">
                 </div>
-                <div class="col-md-6">
-                  <label class="text-black" for="lname">Last Name</label>
+                <div class="col-md-6" style="text-align: right">
+                  <label class="text-black" for="lname" >الاسم الاخير</label>
                   <input type="text" id="lname" name="lname" class="form-control rounded-0">
                 </div>
               </div>
 
               <div class="row form-group">
                 
-                <div class="col-md-12">
-                  <label class="text-black" for="email">Email</label> 
+                <div class="col-md-12" style="text-align: right">
+                  <label class="text-black" for="email" style="text-align: right">الايميل</label>
                   <input type="email" id="email" name="email" class="form-control rounded-0">
                 </div>
               </div>
 
-              <div class="row form-group">
+              <div class="row form-group" >
                 
-                <div class="col-md-12">
-                  <label class="text-black" for="subject">Phone</label>
+                <div class="col-md-12" style="text-align: right">
+                  <label class="text-black" for="subject" style="text-align: right">رقم الجوال</label>
                   <input type="subject" id="subject" name="subject" class="form-control rounded-0">
                 </div>
               </div>
 
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <label class="text-black" for="message">Message</label> 
-                  <textarea name="message" id="message" name="message" cols="30" rows="7" class="form-control rounded-0" placeholder="Leave your message here..."></textarea>
+              <div class="row form-group" >
+                <div class="col-md-12" style="text-align: right">
+                  <label class="text-black" for="message" style="text-align: right">الرسالة</label>
+                  <textarea name="message" id="message" name="message" cols="30" rows="7" class="form-control rounded-0" placeholder="اكتب رسالتك هنا ..."></textarea>
                 </div>
               </div>
 
               <div class="row form-group">
-                <div class="col-md-12">
-                  <input type="submit" value="Send Message" class="btn btn-primary mr-2 mb-2">
+                <div class="col-md-2" style="position:relative; left: -350px; top: 30px; ">
+                  <input type="submit" value="إرسال" class="btn btn-primary mr-2 mb-2">
                 </div>
               </div>
 
@@ -663,19 +576,16 @@ S
         <div class="row mb-5">
           <div class="col-12">
             <p class="mb-0">
-              <a href="#" class="p-3"><span class="icon-facebook"></span></a>
-              <a href="#" class="p-3"><span class="icon-twitter"></span></a>
-              <a href="#" class="p-3"><span class="icon-instagram"></span></a>
-              <a href="#" class="p-3"><span class="icon-linkedin"></span></a>
-              <a href="#" class="p-3"><span class="icon-pinterest"></span></a>
+              <a href="https://twitter.com/Qeimahksa?s=20" class="p-3"><span style="color: #FFFFFF" class="icon-twitter"></span></a>
+              <a href="https://www.instagram.com/qeimahksa/" class="p-3"><span style="color: #FFFFFF" class="icon-instagram"></span></a>
+              <a href="https://www.linkedin.com/company/qeimah/" class="p-3"><span style="color: #FFFFFF" class="icon-linkedin"></span></a>
             </p>
           </div>
         </div>
         <div class="row">
           <div class="col-md-12">
             <p class="mb-0">
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
             </p>
           </div>
         </div>
